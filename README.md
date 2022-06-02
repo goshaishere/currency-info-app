@@ -1,4 +1,4 @@
-# git-search-app
+# currency-info-app
 
 ### installation guide
 
