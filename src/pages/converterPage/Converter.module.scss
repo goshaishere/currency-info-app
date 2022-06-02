@@ -1,0 +1,28 @@
+.converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 828px;
+    background-color: #EBE5C2;
+    padding: 20px;
+    color: #1F220B;
+    .converter_side {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .switcher {
+            margin-right: 20px;
+        }
+        .input {
+            margin-left: 20px;
+        }
+    }
+}
+
+.errorMess {
+    color: #1F220B;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 500px;
+}
